@@ -1,0 +1,76 @@
+body{
+    background: rgb(220, 201, 169);
+}
+nav{
+    background: rgb(193, 173, 137);
+}
+nav li{
+    display: inline-block;
+}
+li{
+    padding: 10px;
+}
+span{
+    font-size: 15px;
+}
+.o1{
+    text-align: center;
+}
+.o2{
+    text-align: left;
+}
+.o3{
+    text-align: right;
+}
+.o4{
+    text-align: justify;
+}
+.o5{
+    text-indent: 5px;
+}
+.o6{
+    text-indent: 2%;
+}
+.o7{
+    line-height: 20px;
+}
+.o8{
+    line-height: 200%;
+}
+.o9{
+    line-height: 1.2;
+}
+.o10{
+    line-height: normal;
+}
+.o11{
+    white-space: nowrap;
+}
+.o12{
+    white-space: pre-wrap;
+}
+.o13{
+    line-height: normal;
+}
+.o14{
+    line-height: normal;
+}
+.o15{
+    line-height: normal;
+}
+.o16{
+    line-height: normal;
+}
+.o17{
+    line-height: normal;
+}
+.o18{
+    line-height: normal;
+}
+.o19{
+    line-height: normal;
+}
+.o20{
+    line-height: normal;
+}
+

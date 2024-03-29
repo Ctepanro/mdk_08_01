@@ -1,0 +1,71 @@
+body{
+    background: rgb(220, 201, 169);
+}
+.prew1{
+    background: url("../images/кот1.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
+.prew2{
+    background: url("../images/кот5.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
+.prew3{
+    background: url("../images/кот2.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
+.prew4{
+    background: url("../images/кот11.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+}
+.prew5{
+    background: url("../images/кот6.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+}
+.new1{
+    background: url("../images/кот11.jpg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.new2{
+    background: url("../images/кот3.jpg");
+    border-radius: 12px;
+    background-size: cover;
+}
+.new3{
+    background: url("../images/кот4.jpg");
+    border-radius: 12px;
+    background-size: cover;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: rgb(193, 173, 137);
+    border-radius: 12px;
+}
+li{
+    padding: 10px;
+}
+span{
+    font-size: 32px;
+}
+.col{
+    display: flex;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+

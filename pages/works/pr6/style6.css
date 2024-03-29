@@ -1,0 +1,30 @@
+body{
+    background: rgb(220, 201, 169);
+}
+nav{
+    background: rgb(193, 173, 137);
+}
+nav li{
+    display: inline-block;
+}
+li{
+    padding: 10px;
+}
+.prew1{
+    background: url("../../../images/кот5.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
+.prew2{
+    background: url("../../../images/кот1.jpg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
+.prew3{
+    background: url("../../../images/кот7.jpeg");
+    border-radius: 12px;
+    width: 200px;
+    height: 180px;
+}
