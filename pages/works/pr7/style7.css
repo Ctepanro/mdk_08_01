@@ -44,33 +44,35 @@ span{
     line-height: normal;
 }
 .o11{
-    white-space: nowrap;
+    word-spacing: 2px;
 }
 .o12{
-    white-space: pre-wrap;
+    letter-spacing: 2px;
 }
 .o13{
-    line-height: normal;
+    white-space: nowrap;
 }
 .o14{
-    line-height: normal;
+    white-space: pre;
 }
 .o15{
-    line-height: normal;
+    text-transform: capitalize;
 }
 .o16{
-    line-height: normal;
+    text-transform: uppercase;
 }
 .o17{
-    line-height: normal;
+    text-transform: lowercase;
 }
 .o18{
-    line-height: normal;
+    text-decoration: underline;
 }
 .o19{
-    line-height: normal;
+    text-decoration: overline;
 }
 .o20{
-    line-height: normal;
+    text-decoration: line-through;
 }
-
+.o21{
+    font-style: italic;
+}
