@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+article img{
+    width: 100%;
+}
+.cor{
+    display: inline-box;
+    vertical-align: auto;
+    border: 1px solid #ff00ea;
+    color: white;
+    background: rgb(207, 130, 13);
+    padding: 5px;
+    text-align: center;
+}
+.cor:hover{
+   background: white;
+   color: black;
+}
+article{
+    background: rgb(207, 177, 41);
+    width: 200px; 
+    padding: 10px;
+}
+section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section{
+    margin-top: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+p{
+    color: rgb(226, 8, 8);
+}
+img{
+    width: 50%;
+    height: 50%;
+}
