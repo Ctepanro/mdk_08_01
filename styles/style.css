@@ -59,8 +59,10 @@ li{
 span{
     font-size: 32px;
 }
-.col{
-    display: flex;
+.navac section {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 main{
     width: 70%;
@@ -68,4 +70,21 @@ main{
 aside{
     width: 30%;
 }
-
+.navac{
+    border: 1px solid #4e03c5;
+    margin: 5px;
+    padding: 15px;
+}
+.navac img{
+    width: 220px;
+    height: 150px;
+}
+.bok{
+    text-align:right;
+}
+.aside{
+    background: rgb(177, 161, 133);
+    padding: 20px;
+    width: 200px;
+    float: right;
+}
