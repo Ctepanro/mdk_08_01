@@ -1,0 +1,83 @@
+.yrt{
+   width: 995px;
+}
+.image{
+   background: url("../pr10/img/картинки/IMG_1945.png");
+   border-radius: 5px;
+   width: 455px;
+   height: 260px;
+}
+.text .image{
+   float: right;
+   margin: 15px;
+}
+.image1{
+   background: url("../pr10/img/картинки/2-сваи\ 1.png");
+   width: 180px;
+   height: 70px;
+}
+.image2{
+   background: url("../pr10/img/картинки/q6\ 1.png");
+   width: 175px;
+   height: 125px;
+}
+section article{
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+section{
+   margin-top: 20px;
+}
+.ter article{
+   display: inline-block;
+   background: rgb(255, 255, 255);
+   width: 185px; 
+   height: 260px;
+   gap: 5px;
+   margin: 10px;
+}
+.ter article{
+   box-shadow: 0 0 0 12px rgba(221, 221, 221, 0.5);
+   overflow: hidden;
+   padding: 20px;
+}
+.cor{
+   display: inline-box;
+   vertical-align: auto;
+   border: 1px solid #ff9100;
+   color: white;
+   background: rgb(255, 153, 0);
+   padding: 5px;
+   width: 80px;
+   text-align: center;
+   border-radius: 5px;
+}
+.cor:hover{
+  background: white;
+  color: black;
+}
+.rating > span::before{
+   content: '>';
+   float: right;
+   box-shadow: 0 0 0 4px rgba(221, 221, 221, 0.5);
+   overflow: hidden;
+   border-radius: 10px;
+   padding: 1px;
+   background: rgba(221, 221, 221, 0.5);
+}
+.rating > span.active{
+   color: rgb(255, 153, 0);
+}
+.rating1 > span::before{
+   content: '<';
+   float: left;
+   box-shadow: 0 0 0 5px rgba(221, 221, 221, 0.5);
+   overflow: hidden;
+   border-radius: 10px;
+   padding: 1px;
+   background: rgba(221, 221, 221, 0.5);
+}
+.rating1 > span.active1{
+   color: rgb(255, 153, 0);
+}
