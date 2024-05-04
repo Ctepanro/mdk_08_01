@@ -1,0 +1,21 @@
+.box {
+  background: rgb(0, 255, 255) no-repeat center;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: border-radius background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+  animation: fadeout 1s ease-in-out 1s forwards;
+}
+.box:hover{
+    background: #ffffff;
+    border-radius: 100%;
+}
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0;}
+}
