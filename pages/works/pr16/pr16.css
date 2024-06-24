@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(234, 234, 234);
+}
+ul{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+
+.I{
+    margin-right: 50px;
+}
+.II{
+    margin-left: 50px;
+}
+.log{
+    display: flex;
+    justify-content: center;
+}
+.non ul {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+}
+.ret{
+    display: flex;
+}
+.ret1{
+    display: flex;
+    background-color: white;
+}
+.ret2{
+    display: flex;
+}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Alumni Sans;
+    src: url("../pr15/шрифт/AlumniSans-Bold.ttf");
+}
+@font-face {
+    font-family: Alumni Sans Reg;
+    src: url("../pr15/шрифт/AlumniSans-Regular.ttf");
+}
+body {
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    display: grid;
+    grid-template-columns: 500px 400px 400px;
+    grid-template-rows: 300px;
+    gap: 10px;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+img:nth-child(1) {
+    grid-row: 2 span;
+}
+h2{
+    text-align: center;
+    font-weight: 10;
+    font-size: 40px;
+    margin: 20px;
+    font-family: Alumni Sans;
+}
+p {
+    font-family: Alumni Sans Reg;
+    font-size: 24px;
+}
+.p{
+    font-family: Alumni Sans Reg;
+    font-size: 24px;
+    text-align: center;
+}
